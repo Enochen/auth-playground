@@ -1,6 +1,15 @@
-# playground
+# auth-playground
 
-## Project setup
+## Setup
+
+Add a `.env` file with your firebase webapp config:
+```
+VUE_APP_API_KEY=...
+VUE_APP_AUTH_DOMAIN...
+```
+
+then run
+
 ```
 yarn install
 ```
@@ -14,11 +23,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
